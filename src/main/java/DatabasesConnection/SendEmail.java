@@ -24,8 +24,8 @@ public class SendEmail {
 		prop.put("mail.smtp.host", "smtp.gmail.com");
 		prop.put("mail.smtp.port", "587");
 		
-		final String myEmail = "itsmrsilentreal@gmail.com";
-		final String pass = "mrsilent9@";
+		final String myEmail = "YourEmail@gmail.com";
+		final String pass = "YourPassword";
 		
 		Session sesssion = Session.getInstance(prop , new Authenticator() {
 			
